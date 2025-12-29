@@ -1,1 +1,13 @@
-# Program-38
+numbers=[3,4,1,9,6,2,8]
+print(numbers)
+x=int(input("enter the number to be inserted:"))
+y=int(input("enter the position:"))
+numbers.insert(y,x)
+print(numbers)
+
+Output:\
+[3, 4, 1, 9, 6, 2, 8]
+enter the number to be inserted:6
+enter the position:1
+[3, 6, 4, 1, 9, 6, 2, 8]
+
